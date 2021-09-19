@@ -14,6 +14,7 @@ header {
     background-color: darkseagreen;
     padding: 1.9rem;
     font-size: larger;
+    border-radius: .7rem;
 }
 
 
@@ -39,4 +40,5 @@ footer {
     font-style: italic;
     text-align: center;
     color: white;
+    border-radius: .7rem;
 }
