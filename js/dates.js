@@ -1,0 +1,1 @@
+const copyrightyear = document.getElementById("copyrightyear");
