@@ -1,0 +1,42 @@
+header, 
+main, 
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+body {
+    color: black;
+}
+
+header {
+    align-items: center;
+    background-color: darkseagreen;
+    padding: 1.9rem;
+    font-size: larger;
+}
+
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+header img {
+    float: right;
+    border-radius: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+footer {
+    background-color: darkgreen;
+    font-size: 25px;
+    padding: 1.9rem;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
