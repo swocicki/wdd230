@@ -1,12 +1,17 @@
 header, 
+nav,
 main, 
 footer {
     max-width: 760px;
     margin: 0 auto;
+    text-align: center;
 }
 
 body {
+    font-size: 16px;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%
 }
 
 header {
@@ -24,11 +29,17 @@ header img {
 }
 
 header img {
-    float: right;
     border-radius: 2rem;
 }
 
 h1 {
+    font-size: 1.75rem;
+    border-bottom: 1px solid;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.25rem;
     text-align: center;
 }
 
