@@ -7,17 +7,18 @@ body {
     margin: 0 auto;
 }
 h1 {
-	font-family:'Courier New', Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
 }
 h2 {
-	font-family:'Courier New', Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
 }
 h3 {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 p {
-    font-family:'Courier New', Courier, monospace;
-    padding: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    
+	padding: 2px;
 }
 main section img {
     width: 100%;
