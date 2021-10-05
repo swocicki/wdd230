@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 767px;
+    margin: 0 auto;
+}
+h1 {
+	font-family:'Courier New', Courier, monospace
+}
+h2 {
+	font-family:'Courier New', Courier, monospace
+}
+h3 {
+    font-family:'Courier New', Courier, monospace
+}
+p {
+    font-family:'Courier New', Courier, monospace
+    padding: 2px;
+}
+main section img {
+    width: 100%;
+}
+footer {
+	text-align: center;
+    padding: .69rem;
+	box-shadow: 10px 10px 10px 2px;
+	background-color: darkcyan;
+	font-family: 'Courier New', Courier, monospace;
+}
+header {
+    text-align: center;
+    padding: .69rem;
+	box-shadow: 10px 10px 10px 2px;
+	background-color: darkcyan;
+}
+
+main section {
+    max-width: 767px;
+    margin: 0 auto;
+    padding: .69rem;
+    text-align: center;
+	box-shadow: 3px 3px 10px 3px;
+}
+section h2{
+	border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+section h3{
+    text-align: center;
+
+}
+
