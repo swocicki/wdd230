@@ -23,7 +23,7 @@ p {
 }
 
 img {
-    width: 35%;
+    width: 15%;
 }
 
 body {
@@ -37,7 +37,4 @@ li {
     margin: 0 auto;
     border: 2.2px solid;
     background-color: bisque;
-}
-.basic_info {
-
 }
