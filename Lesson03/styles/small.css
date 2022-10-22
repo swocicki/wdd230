@@ -2,10 +2,13 @@ main {
     max-width: 750px;
     margin: 0 auto;
     display: grid;
+    
+    
 }
 h2, p, header {
-    padding: 5px;
-    margin: 0 5 auto;
+    padding: 25px;
+    margin: 0 auto;
+    
 }
 header {
     background-color: burlywood;
@@ -24,6 +27,7 @@ h2 {
 }
 p {
     font-size: 15px;
+    padding: 10px;
     color: brown;
     background-color: lightblue;
 }
@@ -47,6 +51,7 @@ li {
 
 nav {
     font-size: 50px;
+    
     
     
 }
