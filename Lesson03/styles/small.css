@@ -5,7 +5,7 @@ main {
 }
 h2, p, header {
     padding: 5px;
-    margin: 0 5;
+    margin: 0 5 auto;
 }
 header {
     background-color: burlywood;
