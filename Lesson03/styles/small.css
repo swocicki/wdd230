@@ -1,5 +1,7 @@
 main {
     max-width: 750px;
+    margin: 0 auto;
+    display: grid;
 }
 h2, p, header {
     padding: 5px;
@@ -7,11 +9,12 @@ h2, p, header {
 }
 header {
     background-color: burlywood;
-    text-align: center;
+    /* text-align: center; */
 }
 footer {
     background-color: burlywood;
     font-size: 20px;
+    text-align: center;
 }
 h2 {
     font-size: 25px;
@@ -41,3 +44,10 @@ li {
     border: 2.2px solid;
     background-color: bisque;
 }
+
+nav {
+    font-size: 25px;
+    
+}
+
+
