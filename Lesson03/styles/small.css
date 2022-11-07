@@ -2,6 +2,7 @@ main {
     max-width: 750px;
     margin: 0 auto;
     display: grid;
+    font-family: 'Courier New', Courier, monospace
     
     
 }
@@ -50,10 +51,26 @@ li {
 }
 
 nav {
-    font-size: 38.5px;
-    
-    
+    font-family: Roboto, san-serif;
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     
 }
+nav div {
+    flex: 1 1 auto;
+}
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
 
+}
+nav a:hover {
+    background-color: maroon;
+    color: white;
+    font-size: 1.1rem;
+}
 
