@@ -51,7 +51,7 @@ li {
 }
 
 nav {
-    font-family: Roboto, san-serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: lightblue;
     text-align: center;
     display: flex;
