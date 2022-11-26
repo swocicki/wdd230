@@ -59,6 +59,11 @@ h2 {
     color: black;
 }
 
+#navbar main-navigation{
+
+
+}
+
 .navbar {
     background: maroon;
     display: flex;
@@ -73,6 +78,9 @@ h2 {
     padding: 10px;
     color: #9bc4cb;
     margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
 }
 
 .nav-item {
@@ -81,7 +89,7 @@ h2 {
 
 
 .nav-item a:hover {
-    background: #ece9eb;
+    background: #662200;
     color: #9bc4cb;
 }
 
