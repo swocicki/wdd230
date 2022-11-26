@@ -1,5 +1,5 @@
 
-@media (min-width: 1440px) {
+@media (min-width: 760) {
   nav {
      flex-direction: row;
   }
@@ -15,7 +15,6 @@
   
     main {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-column-gap: 10px;
     }
   
