@@ -10,12 +10,7 @@
         width: 30%; 
             align-self: center;
     }
-.primaryNav li: :first-child{
-        display: block;
-        flex: 1 1 100%;
-    
-        
-    }
+
 
 
 body {
@@ -261,5 +256,4 @@ p {
 #lastModified {
 	text-align: center;
 	font-size: smaller;
-}
 }
