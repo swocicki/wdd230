@@ -1,5 +1,5 @@
 /* medium - tablet */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
     body {
       max-width: 95%;
     }
@@ -13,7 +13,7 @@
     }
   
     main {
-      display: grid;
+      text-align: center;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-column-gap: 10px;
     }
