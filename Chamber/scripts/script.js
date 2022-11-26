@@ -3,6 +3,6 @@ document.querySelector(
 ).textContent = `Last Modification: ${document.lastModified}`;
 
 function toggleMenu() {
-	document.getElementsByClassName("nav-item")[0].classList("responsive");
+	document.getElementsByClassName("primaryNav")[0].classList("responsive");
 }
 
