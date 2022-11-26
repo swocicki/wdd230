@@ -67,8 +67,9 @@ h2 {
 .nav-item a {
     display: block;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     color: #9bc4cb;
+    margin: 0 auto;
 }
 
 .nav-item {
@@ -142,20 +143,12 @@ header {
     padding: 0;
 }
 
-.hero h2 {
-    font-size: 10px;
-    padding-left: .5rem;
-    position: absolute;
-    text-shadow: 2px 2px #c2c2c2;
-    font-size: 2.5rem;
-}
+
 .hero img {
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
-.hero button {}
-
 
 .spotlight {
     height: 280px;
@@ -166,10 +159,6 @@ header {
     margin-top: 10px;
 }
 
-body > main > section.spotlight > a:nth-child(2) {
-    text-align: center;
-    align-self: center;
-}
 .hamburger {
     font-size: 2rem;
 }

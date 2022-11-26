@@ -25,10 +25,11 @@
     }
   
     main {
-      margin-right: 300px;
-      margin-left: 300px;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-right: 225px;
+      margin-left: 225px;
+      
       grid-template-rows: auto;
+      
     }
   
     .pictures {
