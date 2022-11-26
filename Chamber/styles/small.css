@@ -2,9 +2,9 @@
     body {
       max-width: 95%;
     }
-.headerlogo {
-    width: 30%; 
-    align-self: center;
+    .headerlogo {
+        width: 30%; 
+        align-self: center;
 }
 
 
@@ -206,6 +206,11 @@ h1{
 .directButtons {
     margin: auto;
     text-align: center;
+}
+
+.button {
+    padding-top: 1px;
+    padding-bottom: 5px;;
 }
 .gridbtn, .listbtn {
     margin: 6px;
