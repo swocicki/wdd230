@@ -80,7 +80,7 @@ h2 {
     color: #9bc4cb;
 }
 
-.headItems {
+#headItems {
     display: flex;
     flex-direction: column;
     align-items: center;
