@@ -3,7 +3,7 @@
   .primaryNav {
      display: flex;
   }
-}
+
   
     .maincontent {
       padding: 2rem;
@@ -87,6 +87,11 @@
     .weather {
       grid-row-start: 5;
       grid-column: 3/4;
+    }
+
+    button {
+      padding-top: 30px;
+      font-size: larger;
     }
   
   

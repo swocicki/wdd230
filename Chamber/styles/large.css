@@ -5,7 +5,7 @@
     }
     .primaryNav li: :first-child{
       display: none;
-   }
+    }
   
     .maincontent {
       padding: 2rem;
@@ -108,4 +108,8 @@
     .news {
       grid-area: 3/2/4/4;
     }
-  }
+
+    .hamburger {
+      display: none;
+    }
+}
