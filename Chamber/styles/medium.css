@@ -1,7 +1,7 @@
 
 @media (min-width: 760PX) {
-  nav {
-     flex-direction: row;
+  .primaryNav {
+     display: flex;
   }
 }
   
