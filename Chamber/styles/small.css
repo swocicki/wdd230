@@ -233,6 +233,10 @@ p {
     display: none;
 }
 
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
 
 
 
