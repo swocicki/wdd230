@@ -13,6 +13,7 @@
       flex-direction: row;
       align-items: center;
       padding: 0;
+
     }
   
     .nav-item {
@@ -24,8 +25,8 @@
     }
   
     main {
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-right: 300px;
+      margin-left: 300px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: auto;
     }
