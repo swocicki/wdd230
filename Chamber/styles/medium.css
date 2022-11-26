@@ -1,5 +1,5 @@
 
-@media (min-width: 760) {
+@media (min-width: 760PX) {
   nav {
      flex-direction: row;
   }
