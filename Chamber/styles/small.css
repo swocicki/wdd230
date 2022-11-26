@@ -1,4 +1,7 @@
-
+@media screen and (min-width: 200px) {
+    body {
+      max-width: 95%;
+    }
 .headerlogo {
     width: 30%; 
     align-self: center;

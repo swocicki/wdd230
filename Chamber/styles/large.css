@@ -27,7 +27,7 @@
     main {
       margin-right: 225px;
       margin-left: 225px;
-      
+      display: grid;
       grid-template-rows: auto;
       
     }

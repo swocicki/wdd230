@@ -1,8 +1,9 @@
-/* medium - tablet */
-@media screen and (min-width: 1440px) {
-    body {
-      max-width: 95%;
-    }
+
+@media (min-width: 1440px) {
+  nav {
+     flex-direction: row;
+  }
+}
   
     .maincontent {
       padding: 2rem;
@@ -13,7 +14,7 @@
     }
   
     main {
-      text-align: center;
+      display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-column-gap: 10px;
     }
