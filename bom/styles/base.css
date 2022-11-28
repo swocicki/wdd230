@@ -16,6 +16,14 @@ h1 {
 	font-size: 1.5rem;
 }
 
+header {
+	color:black;
+	background-color: goldenrod;
+	margin-bottom: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	
+}
 main {
 	margin: 0.5rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.2);
