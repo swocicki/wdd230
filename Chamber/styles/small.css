@@ -47,7 +47,7 @@ header {
 /* Navigation */
 nav {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 4000;
+    font-weight: 1000;
     background-color: maroon;
     text-align: center;
     display: flex;
@@ -109,7 +109,7 @@ nav a:hover {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.8rem;
-    border-style:. outset;
+    border-style: outset;
 }
 /* Main content */
 h1, h2, h3, h4 {
