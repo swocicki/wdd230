@@ -1,230 +1,426 @@
-@media screen and (min-width: 200px) {
-    body {
-      max-width: 95%;
-    }
-    .headerlogo {
-        width: 30%; 
-            width: 30%; 
-        width: 30%; 
-            width: 30%; 
-        width: 30%; 
-            align-self: center;
-    }
 
+body {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
 
+}
+aside {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+/* Header */
+header {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    background-color: #ece9eb;
+    border-style: outset;
+    border-radius: 50px;
 
-    body {
-        max-width: 95%;
-        margin: auto;
-        padding: 1.5rem;
-        font-family: 'Courier New', Courier, monospace;
-    }
-
-    main{
-        display: unset;
-        padding-bottom: 1em;
-    }
-
-    h1 {
-        text-align: center;
-        margin: 0;
-        padding: 1.5rem;
-    }
-
-    h1,
-    h2 {
-        font-family: 'Courier New', Courier, monospace;
-    }
-
-
-    .socialStuff {
-        display: flex;
-        list-style-type: none;
-
-    }
-
-    .primaryNav {
-        padding-right: 50px;
-    }
-
-    #banner {
-        background-color: rgb(54, 34, 8);
-    }
-    #banner h2 {
-        margin: 0;
-        padding: 0.8rem;
-        color: black;
-    }
-
-    .navbar {
-        background: maroon;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .nav-item a {
-        display: block;
-        text-decoration: none;
-        padding: 10px;
-        color: #9bc4cb;
-        margin: 0 auto;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: x-large;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    button {
-        background-color: transparent;
-        border: none;
-        padding-left: 65px;
-    }
-    .responsive li {
-        display: block;
-    }
-
-
-    .nav-item a:hover {
-        background: #662200;
-        color: #9bc4cb;
-    }
-
-    #headItems {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 0;
-        padding-top: .8rem;
-        text-align: center;
-    }
-
-    .currentDate {
-        padding: 1rem;
-    }
-
-
-
-    footer {
-        text-align: center;
-        padding-top: 1em;
-        font-family: 'Rancho', serif;
-        background-color: grey;
-        color: white;
-        padding-bottom: 1em;
-    }
-
-    header {
-        padding: 0.8rem; 
-        background-color: #ece9eb;
-        color: maroon;
-        text-align: center;
-    }
-
-    .link {
-        color: #000;
-        text-decoration: dashed;
-    }
-
-    .hero,
-    .event,
-    .weather,
-    .news,
-    .join {
+}
+#headerLogo {
+    width: 30%;
+    align-self: center;
+    margin: 0;
+    border-radius: 50px;
+}
+#siteTitle {
+    align-self: center;
+}
+.social {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    list-style: none;
+    align-self: center;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
     
-        border: 3px solid black;
-        background-color: #9bc4cb;
-        padding: 1px;
-        margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 4000;
+    background-color: maroon;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fbfbfb;
+    margin: 0;
+    padding:0;
+    border-style: outset;
+}
+nav button {
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    color: yellow;
     
-    }
+}
+nav ul {
+    padding: 0;
+}
+nav ul.hide {
+    display: none;
+}
+nav li {
+    flex: 1 1 auto;
+    list-style: none;
+}
 
-    .hero {
-        position: relative;
-        padding: 0;
-    }
+nav a {
+    display: block;
+    color: #fbfbfb;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #9bc4cb;
+    color: #000000;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
 
+/* Date Span */
+#dateSpan {
+    color: white;
+    background-color: #662200;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+#last-visit-p {
+    text-align: center;
+    padding: 1rem;
+    background-color: maroon;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    border-style:. outset;
+}
+/* Main content */
+h1, h2, h3, h4 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    
+}
+h1 {
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+p {
+    margin: 10px;
+}
+section {
+    margin: 5px;
+}
+#join {
+    display: none;
+}
+.link {
+    color: orange;
+    text-decoration:dotted;
+}
+#hero, #event, #weather, #news, #join {
+    height: 200px;
+    border: none;
+    background-color: #662200;
+    position: relative;
+    border-radius: 25px;
+    border-style: groove;
+    box-shadow: 10px 10px 10px maroon;
+}
+.spotCards {
+    display: flex;
+    margin-top: 10px;
+    height: 110px;
+    padding-left: 10px;
+    justify-content: space-around;
+    
+}
+.spotlightImage {
+    height: 100%;
+    width: auto;
+    border-style: outset;
+    border-radius: 25px;
+}
+.spotlightImage:hover {
+    box-shadow: 10px 10px 10px  maroon;
+}
+#hero img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    border-style: outset;
+}
+#hero button {
+    position: absolute;
+    top: 340px;
+    right: 50px;
+    background-color: maroon;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+}
+#hero button li {
+    list-style: none;
+}
+#hero button:hover {
+    background-color: transparent;
+}
+#hero button a {
+    color: #000;
+}
+#event img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.eventInfo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+}
+#weather img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.weatherInfo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent
 
-    .hero img {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-    }
+}
+.weatherInfo h3 {
+    margin-bottom: 0;
+    text-align: center;
+}
+.weatherInfo figure {
+    text-align: center;
+    margin-top: 0;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+.weatherInfo p {
+    font-size: .8rem;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+#icon {
+    max-width: 12px;
+}
+#news {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+}
+#news h3 {
+    padding-bottom: 10px;
+    
+}
 
-    .spotlight {
-        height: 280px;
-        border: 1px solid black;
-        background-color: #662200;
-        padding: 10px;
-        color: white;
-        margin-top: 10px;
-    }
+/* Footer */
+footer {
+    font-family: 'Rancho', serif;
+    text-align: center;
+    background-color: maroon;
+    border-radius: 25px;
+    color: white;
+    border-style: outset;
+}
+footer h2 {
+    font-size: 1rem;
+    font-style: italic;
+}
+footer img {
+    max-width: 20%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-color: white;
+}
+footer .address {
+    font-style: italic;
+}
+.contactInfo {
+    font-size: .8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    border-style: outset;
+    font-size: larger;
+    margin-top: auto;
+    
+    
+}
+.classInfo {
+    font-size: larger;
+    background-color: grey;
+    border-radius: 25px;
+    border-style: outset;
+}
 
+/* Discover Page */
+.discover-header {
+    display: block;
+    text-align: center;
+}
+.discover img {
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 #bbb;
+    transition: 0.3s;
+    overflow: hidden;
+    margin: 2%;
+}
+.caption {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2%;
+    font-family: Roboto, san-serif;
+}
+.fact {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: Roboto, san-serif;
+}
 
-    .spot1,
-    .spot2,
-    .spot3 {
-        height: 100px;
-        border: 1px solid black;
-        padding: 10px;
-        margin-top: 10px;
-    }
+/* Join Page */
+.joinPage h2 {
+    text-align: center;
+    padding: 1rem;
+}
+fieldset {
+    padding: .5rem;
+    margin: 1rem;
+    font-family: Roboto, san-serif;
+    font-weight: 700;
+}
+legend {
+    margin-left: .5rem;
+}
+input, textarea {
+    display: block;
+    padding: .5rem;
+}
+label {
+    font-weight: 400;
+}
+textarea {
+    height: 200px;
+    width: 95%;
+}
+.top {
+    display: block;
+    padding: .5rem;
+}
+.sbs {
+    display: flex;
+    width: 150px;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+input[type="radio"] {
+    margin-right: .5rem;
+    width: 20px;
+}
+#joinTwo {
+    margin-left: 1rem;
+    font-weight: 700;
+    color: maroon;
+}
+#tierOptions {
+    display: flex;
+}
+#npDescription, #bronzeDescription, #silverDescription, #goldDescription {
+    display: none;
+}
+#joinBtn {
+    margin-left: 1rem;
+}
 
-    .pictures {
-        overflow: hidden;
-    }
+/* Directory Page */
+.directory h2 {
+    text-align: center;
+}
+.directory .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+#gridBtn, #listBtn {
+    padding: 1rem;
+    margin: 5px;
+}
+.directory img {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: .9rem;
+}
+.cards section {
+    margin-top: 2rem;
+}
+.list {
+    display: flex;
+    margin: 0 auto;
+}
+.list p {
+    text-align: left;
+}
+.list h3 {
+    text-align: left;
+}
+.list img {
+    display: none;
+}
 
-    .pictures figure {
-        margin: auto;
-    }
-    img.discover,
-    img.companyPic {
-        width: 100%;
-        height: auto;
-    }
-
-    .companyPic {
-        box-shadow: 3px 3px 4px #2f2f2f;
-        border: 1px solid lightgray;
-    }
-
-
-    h1{
-        margin: auto;
-        text-align: center;
-    }
-
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(269px, 1fr));
-        grid-gap: 1.875rem;
-    }
-
-    .list {
-        margin: auto;
-        display: grid;
-    }
-
-    .h2List {
-        display: inline-block;
-        padding: .5rem;
-    }
-
-    p {
-        display: inline-block;
-        padding: .2rem;
-    }
-
-    .spot3 {
-        display: none;
-    }
-
-    #lastModified {
-	    text-align: center;
-	    font-size: smaller;
-    }
+/* Contact Page */
+.contact p, h2 {
+    text-align: center;
+}
+#messageBtn {
+    margin-left: 1rem;
 }

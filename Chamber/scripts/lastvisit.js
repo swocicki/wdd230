@@ -1,19 +1,39 @@
-const date1 = document.querySelector("#date1");
+const daysSinceLastVisit = document.querySelector('#last-visit');
 
-try {
-	const options = {
-		day: "numeric",
-		month: "numeric",
-		year: "numeric"
-	};
-	date1.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
-} catch (e) {}
+let daysPassed = 0;
 
-const copyYr = document.querySelector("#copyYr");
+let lastVisited;
+let visitedToday = new Date()
 
-try {
-	const options = {
-		year: "numeric"
-	};
-	copyYr.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
-} catch (e) {}
+
+const populateStorage = () => {
+    localStorage.setItem('lastVisited', visitedToday.getTime());
+    localStorage.setItem('visitedToday', visitedToday.getTime());
+};
+
+const setNewDate = () => {
+    localStorage.setItem('visitedToday', visitedToday.getTime());
+    daysPassed = calculateDays();
+};
+
+const calculateDays = () => {
+    let last = localStorage.getItem('lastVisited');
+    let now = localStorage.getItem('visitedToday');
+
+    let difference = now - last
+
+    daysPassed = difference / (1000 * 3600 * 24)
+    daysPassed = Math.round(daysPassed);
+    return daysPassed
+};
+
+if(!localStorage.getItem('lastVisited')) {
+    populateStorage();
+    daysPassed = calculateDays();
+} else {
+    setNewDate();
+};
+
+daysSinceLastVisit.innerHTML = daysPassed;
+
+localStorage.setItem('lastVisited', visitedToday.getTime());

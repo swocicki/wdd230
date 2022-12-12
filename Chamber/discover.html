@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoC">
+    <title>Cowley Wyoming Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img id="headerLogo" src="images/cowleycoclogo.png" alt="CoC_logo">
+        <section id="siteTitle">
+        <h1>Cowley Wyoming</h1>
+        <h2>Chamber of Commerce</h2>
+        </section>
+    <ul class='social'>
+        <li><a href="facebook.com"><img src="images/facebook_logo.png" alt="facebook link" class="social"></a></li>
+        <li><a href="instagram.com"><img src="images/insta_logo.png" alt="instagram link" class="social"></a></li>   
+    </ul>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9783;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <p id="dateSpan"> 
+        <span id="today"></span>
+        </p>    
+    <main class="discover">
+        <h2 class="discover-header">CoC Discover</h2>
+            <figure class="card">
+                <picture>
+                    <img src="images/cloud_peak.jpg" alt="Cloud Peak">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Cloud Peak</h3>
+                    <p class="fact">Cloud Peak is within a short driving distance, and is one of the Highest Peaks in the US at 13,1717ft above sea level
+                        and is considered a wonderful hike full of wildlife and beautiuful views, including a crashed WWII Bomber.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/bend.jpg" alt="Horseshoe Bend">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Horseshoe Bend</h3>
+                    <p class="fact">Horse Shoe Bend is a popular tourist location that is part of the Bighorn Reservoir, swimming, Water sports, and camping are 
+                        all common activities found here! </p>
+                </figcaption>   
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/museum.jpg.crdownload" alt="Museum">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Pioneer Museum</h3>
+                    <p class="fact">Located in Cowley, this museum serves the dual-purpose role of administration office
+                        and a histrorical musem full of items spanning from Cowley's creation to modern events! 
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/agriculture.jpg.crdownload" alt="Farm Land">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Agriculture</h3>
+                    <p class="fact">Agriculture is a huge percentage of Cowley's area and provides farmers with work and employment 
+                        opportunities for would-be workers as well. Make sure to wave when you pass a fourwheeler running along the 
+                        irigation ditches!
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/cowley_pop.jpg" alt="Cowley">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Small-Town Feel! </h3>
+                    <p class="fact">Having only a population of ~655 people you'll be sure to meet some life-long friends that will always greet you
+                        with a warm smile and most likely a handshake or a car honk! 
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/water.jpg" alt="Water Tower">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Artisian Well</h3>
+                    <p class="fact">Known as the "Best Water Around" Cowley gets it's water from an artesian well and in
+                        the summer of 2021 a new water tower that has a capacity of ~500,000 gallons was finished, removing the old one 
+                        that was built in the 80s. 
+                    </p>
+                </figcaption>
+            </figure>
+    </main>
+    <footer>
+        <section class="contactInfo">
+            <img src="images/cowleycoclogo.png" alt="CoC_logo">
+            <section id="address">
+                <h2 class="address">Cowley Wyoming C.o.C</h2>
+                <p>123 Easy St</p>
+                <p>Cowley Wyoming</p>
+            </section>
+            <section id="contact">
+                <p>email @ coc@yahoo.com</p>
+                <p>(307) 867-5309 </p>
+                <p>✈ Location Map</p>
+            </section>
+        </section>
+        <hr>
+        <section class="classInfo">
+            <p>&copy; <span id="year"></span></p>
+            <p>Cowley CoC</p>
+            <p>Shane Wocicki</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="lastUpdate"></span></p>
+            <p>Weather info provided by <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+        </section>
+        <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit.</p>
+    </footer>
+<script src="scripts/date.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/lastvisit.js"></script>
+<script src="scripts/spotlight.js"></script>
+</body>
+</html>

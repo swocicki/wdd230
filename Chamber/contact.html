@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoC">
+    <title>Cowley Wyoming Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img id="headerLogo" src="images/cowleycoclogo.png" alt="CoC">
+        <section id="siteTitle">
+        <h1>Cowley Wyoming</h1>
+        <h2>Chamber of Commerce</h2>
+        </section>
+    <ul class='social'>
+        <li><a href="facebook.com"><img src="images/facebook_logo.png" alt="facebook link" class="social"></a></li>
+        <li><a href="instagram.com"><img src="images/insta_logo.png" alt="instagram link" class="social"></a></li>
+    </ul>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9783;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <p id="dateSpan"> 
+        <span id="today"></span>
+        </p>    
+
+    <main class="contact">
+        <h2>We'd love to hear from you! 💯</h2>
+        <p>Hours (M-M): 🌒 5am-5pm 🌘</p>
+        <p>Phone: (307)-867-5309</p>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Send Us a Message!<br>* Indicates a required Field</legend></legend>
+                <label class="top">Name * <input type="text" placeholder= "John Doe" name="name"></label>
+                <label class="top">Email *<input type="email" placeholder= "johndoe@gmail.com" name="email" required=""></label>
+                <label class="top">Message * <textarea name="message"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Send 👏" id="messageBtn">
+        </form>
+        
+    </main>
+    <footer>
+        <section class="contactInfo">
+            <img src="images/cowleycoclogo.png" alt="CoC_logo">
+            <section id="address">
+                <h2 class="address">Cowley Wyoming C.o.C</h2>
+                <p>123 Easy St</p>
+                <p>Cowley Wyoming</p>
+            </section>
+            <section id="contact">
+                <p>email @ coc@yahoo.com</p>
+                <p>(307) 867-5309 </p>
+                <p>✈ Location Map</p>
+            </section>
+        </section>
+        <hr>
+        <section class="classInfo">
+            <p>&copy; <span id="year"></span></p>
+            <p>Cowley CoC</p>
+            <p>Shane Wocicki</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="lastUpdate"></span></p>
+            <p>Weather info provided by <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+        </section>
+        <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit.</p>
+    </footer>
+<script src="scripts/date.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/lastvisit.js"></script>
+<script src="scripts/spotlight.js"></script>
+</body>
+</html>
