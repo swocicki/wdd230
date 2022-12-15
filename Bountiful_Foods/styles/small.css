@@ -1,0 +1,203 @@
+body {
+    background-color: #3f4022;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+
+}
+aside {
+    color: white;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+}
+/* Header */
+header {
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    background-color: #E3D9CF;
+    border-style: outset;
+    border-radius: 29px;
+    text-align: center;
+}
+
+header img {
+    max-width: 86%;
+    
+}
+#headerLogo {
+    width: 15%;
+    align-self: center;
+    margin: 0;
+    border-radius: 50px;
+}
+#siteTitle {
+    align-self: center;
+}
+.social {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    list-style: none;
+    align-self: center;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* Navigation */
+nav {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 1000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+    border-style: outset;
+}
+nav button {
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    color: yellow;
+    
+}
+nav ul {
+    padding: 0;
+}
+nav ul.hide {
+    display: none;
+}
+nav li {
+    flex: 1 1 auto;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    text-decoration-line: underline;
+}
+nav a:hover {
+    background-color: Beige;
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* Date Span */
+#dateSpan {
+    color: white;
+    background-color: #662200;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2rem;
+}
+#last-visit-p {
+    text-align: center;
+    padding: 1rem;
+    background-color: #9d6556;
+    color: #121e26;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.8rem;
+    border-style: outset;
+    border-radius: 25px;
+}
+/* Main content */
+h1, h2, h3, h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 10px;
+    color: #121e26;
+    
+}
+h1 {
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+p {
+    margin: 10px;
+    color: beige;
+    font-size: smaller;
+}
+section {
+    margin: 5px;
+}
+#join {
+    display: none;
+}
+
+#hero, #event, #weather, #news, #join {
+    height: 200px;
+    border: none;
+    position: relative;
+    border-radius: 17px;
+    border-style: groove;
+    box-shadow: 5px 5px 5px beige;
+
+}
+.spotCards {
+    display: flex;
+    margin-top: 10px;
+    height: 110px;
+    padding-left: 10px;
+    justify-content: space-around;
+    
+}
+.spotlightImage {
+    height: 100%;
+    width: auto;
+    border-style: outset;
+    border-radius: 25px;
+}
+.spotlightImage:hover {
+    box-shadow: 5px 5px 5px  #f1f1f1;
+    
+}
+#hero img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    border-style: outset;
+}
+#hero button {
+    position: absolute;
+    top: 340px;
+    right: 50px;
+    background-color: #dac4b3;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #887b56;
+}
+#hero button li {
+    list-style: none;
+}
+#hero button:hover {
+    background-color: #887b56;
+    color: #f1f1f1;
+}
+
+#event img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+
+
+

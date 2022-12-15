@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoC">
+    <title>Cowley Wyoming Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img id="headerLogo" src="images/logo.jpg" alt="BF_logo">
+        <section id="siteTitle">
+        <h1>🍓 Bountiful Foods 🍑</h1>
+        <h2>Organic Made Simple</h2>
+        </section>
+    <ul class='social'>
+        <li><a href="facebook.com"><img src="images/facebook.jpg" alt="facebook link" class="social"></a></li>
+        <li><a href="instagram.com"><img src="images/instagram.jpeg" alt="instagram link" class="social"></a></li>   
+        <li><a href="linkedin.com"><img src="images/linked.png" alt="linkedin link" class="social"></a></li>  
+    </ul>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9783;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <p id="dateSpan"> 
+        <span id="today"></span>
+        </p>    
+    
+    
+        <main class="contact">
+        <h1>Our History</h1>
+        <P>Bountiful Foods hasnt been around as long
+            as some (founded in 2022)but we have made it our goal to make
+            sure that we not only provide healthy and organice
+            food, but also we strive to connect with you, our 
+            customer because we realize without you there 
+            is no us! So this is to you! Our loyal Customers!
+        </p>
+        <p>
+            We want to be there for you on every step of the journey
+            so count us in! 
+        </p>
+        
+    </main>
+    <hr>
+    <footer>
+        <section>
+            <h2>We'd love to hear from you! 💯</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend></legend>* Indicates a required Field</legend><br></br>
+                <label class="top">Name * <input type="text" placeholder= "John Doe" name="name"></label>
+                <label class="top">Email *<input type="email" placeholder= "johndoe@gmail.com" name="email" required=""></label>
+                <label class="top">Message * <textarea name="message"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Send 👏" id="messageBtn">
+        </form>
+        <section class="contactInfo">
+            <section id="address">
+                <h2 class="address">Bountiful Foods</h2>
+                <p>123 Easy St</p>
+                <p>Cowley Wyoming 82420</p>
+                <p>(307) 867-5309 </p>
+                <p>✈ Location Map</p>
+                <p>Weather info provided by <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+        </section>
+            </section>
+        </section>
+        </section>
+        <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit. Come again!</p>
+    </footer>
+<script src="scripts/date.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/lastvisit.js"></script>
+<script src="scripts/spotlight.js"></script>
+</body>
+</html>

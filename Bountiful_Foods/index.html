@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoC">
+    <title>Bountiful Foods</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img id="headerLogo" src="images/logo.jpg" alt="BF_logo">
+        <section id="siteTitle">
+        <h1>🍓 Bountiful Foods 🍑</h1>
+        <h2>Organic Made Simple</h2>
+        </section>
+    <ul class='social'>
+        <li><a href="facebook.com"><img src="images/facebook.jpg" alt="facebook link" class="social"></a></li>
+        <li><a href="instagram.com"><img src="images/instagram.jpeg" alt="instagram link" class="social"></a></li>   
+        <li><a href="linkedin.com"><img src="images/linked.png" alt="linkedin link" class="social"></a></li>  
+    </ul>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9783;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <p id="dateSpan"> 
+    <span id="today"></span>
+    </p>      
+    <main>
+        <section id="hero">
+            <img src="images/hero.jpg" alt="masons">
+            <form action="fresh.html">
+            <button id="joinOne" type="submit">Personalize It! </button>
+            </form>
+        </section>
+        <section id="event">
+            <img src="images/drink1.jpg" alt="drink_1">
+            <div class="eventInfo">
+        </div>
+        </section>
+        <section id="weather">
+            <img src="" alt="">
+            <div class="weatherInfo">
+                <h3>Weather</h3>               
+                <p>Temp: <span id="temp"></span></p>
+                <p>Wind: <span id="speed"></span></p>
+                <p>Chill: <span id="chill"></span></p>
+            </div>
+        </section>
+        <section id="news">
+            <h3>Why we chose Laguna Beach</h3>
+            <p>Laguna Beach is a seaside resort city 
+                located in southern Orange County, California, 
+                in the United States. It is known 
+                for its mild year-round climate, scenic coves, 
+                environmental preservation efforts, and great food!.</p>
+        </section>
+        <section id="spotlight">
+            <div class="spotCards">
+                <div>
+                    <img src="images/meal_1.jpg" alt="Hyart" class="spotlightImage">
+                </div>
+                <div>
+                    <img src="images/meal_2.jpg" alt="Bullpub" class="spotlightImage">
+                </div>
+                <div>
+                    <img src="images/meal_3.jpg" alt="Log gym" class="spotlightImage">
+                </div>
+
+            </div>
+        </section>
+        <section id="join">
+            <p>Shane W. said:
+                "After trying Bountiful Foods I have 
+                never felt more healthy or energetic in my
+                life! ⭐⭐⭐⭐⭐"
+            </p> 
+            
+        </section>        
+    </main>
+    <footer>
+        <!-- <section class="contactInfo">
+            <section id="address">
+                <h2 class="address">Bountiful Foods</h2>
+                <p>123 Easy St</p>
+                <p>Cowley Wyoming 82420</p>
+            </section>
+            <section id="contact">
+                <p>email @ coc@yahoo.com</p>
+                <p>(307) 867-5309 </p>
+                <p>✈ Location Map</p>
+            </section>
+        </section>
+        <hr>
+        <section class="classInfo">
+            <p>&copy; <span id="year"></span></p>
+            <p>Cowley CoC</p>
+            <p>Shane Wocicki</p>
+            <p>WDD 230 Project</p>
+            <p>Weather info provided by <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+        </section> -->
+        <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit. Come again!</p>
+    </footer>
+<script src="scripts/date.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/lastvisit.js"></script>
+<script src="scripts/spotlight.js"></script>
+</body>
+</html>
